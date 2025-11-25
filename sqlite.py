@@ -8,7 +8,7 @@ from tkinter import ttk
 
 # KONEKSI DATABASE 
 def koneksi():
-    return sqlite3.connect("nilai.db")
+    return sqlite3.connect("nilai2.db")
 
 def create_table():
     con = koneksi()
